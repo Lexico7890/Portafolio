@@ -6,120 +6,122 @@
       name="viewport"
       content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"
     />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
     <link rel="stylesheet" href="style.css" />
-    <script src="https://kit.fontawesome.com/4d72747f1d.js" crossorigin="anonymous"></script>
+    <script
+      src="https://kit.fontawesome.com/4d72747f1d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
     <title>Curriculum Oscar</title>
   </head>
   <body>
-    <section class="sectionPhoto">
-      <article class="header">
-        <h4 class="textTitle">Portafolio</h4>
-        <nav>
-          <ul class="ulnav">
-            <li><a href="#">Inicio</a></li>
-            <li><a href="#">Informacion Personal</a></li>
-            <li><a href="#">Habilidades</a></li>
-            <li><a href="#">Contacto</a></li>
-          </ul>
-        </nav>
-      </article>
+    <article class="header">
+      <h4 class="textTitle">Portafolio</h4>
+      <nav>
+        <ul class="ulnav">
+          <li><a href="#secInicio">Inicio</a></li>
+          <li><a href="#secInfo">Informacion Personal</a></li>
+          <li><a href="#secHabilidades">Habilidades</a></li>
+          <li><a href="#secContact">Contacto</a></li>
+        </ul>
+        <div class="toggle"></div>
+      </nav>
+    </article>
+    <section class="sectionPhoto" id="secInicio">
       <div class="text-container">
         <p>Hola</p>
         <p>Soy Oscar</p>
         <p>Analista De Software <br />& Desarrollador Web</p>
-        <button class="btn_descargar">Descargar CV</button>
+        <a class="btn_descargar" href="pdf/Curriculum_vitae_oscarR.pdf" download="CurriculumOscarCasas.pdf" target="_blank">Descargar CV</a>
       </div>
-      <img
-        src="https://cdn.pixabay.com/photo/2019/12/20/07/31/bald-man-4707826_960_720.png"
-        class="model"
-        alt="Foto"
-      />
+      <img src="images/oscarPortafolioWeb.png" class="model" alt="Foto" />
     </section>
-    <div class="about-container">
-      <img
-        src="https://cdn.pixabay.com/photo/2019/12/20/07/31/bald-man-4707826_960_720.png"
-        alt="foto"
-      />
+    <div class="about-container" id="secInfo">
+      <img src="images/oscarPortafolioWeb.jpg" alt="foto" />
       <div class="about-text">
         <p>Quien Soy</p>
         <p>Analista de software & Desarrollador web</p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae,
-          deserunt, numquam labore beatae nihil aspernatur non ea dolore commodi
-          doloremque laborum! Eos natus quaerat quam voluptatum! Numquam
-          necessitatibus est veritatis.
+          Soy una persona que aprende cada día para crecer como profesional y espiritualmente, que ve más su carrera como una pasión más que como un trabajo, 
+          cada proyecto que realizo lo tomo como un desafío para saber de qué soy capaz y me exijo cada día para superar estos desafíos
         </p>
+        <br/>
         <p>
-          Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui velit
-          ducimus adipisci numquam sint omnis natus quaerat mollitia, illo
-          nesciunt ullam possimus consectetur ratione eum voluptate sapiente
-          porro nostrum facere!
+          "Todo lo que puedas imaginar es real"
         </p>
+        <p>Pablo Picasso</p>
       </div>
     </div>
-    <div class="Habilities">
+    <div class="Habilities" id="secHabilidades">
       <div class="habilities-text">
         <p>Habilidades</p>
-        <p>Lorem ipsum doleos corrupti asperiores adipisci in ita</p>
+        <p>Habilidades en las que mejor me desempeño</p>
         <p>
-          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ullam,
-          dolore qui commodi ea mollitia similique quidem saepe voluptatem
-          provident culpa sequi vo Lorem ipsum dolor sit amet consectetur
-          adipisicing elit. Eius beatae assumenda amet harum voluptates
-          aspernatur id labore dolor incidunt odit illo eveniet fuga vero minima
-          iusto, non in esse ex!
+          Tengo conocimientos en tecnologías frontend como html, css y javascritp con manejo de framework react con redux y nextJs, 
+          tecnologías de backend con nodeJs y en móvil con react-native, 
+          manejo de bases de datos relacionales(sql server, mySql) y no relacionales(mongo,firebase Cloud) y manejo de repositorios en git 
         </p>
+        
       </div>
       <div class="box-container">
         <div class="box-1">
           <span>1</span>
           <p>Frontend</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            placeat inventore possimus a dicta natus at sapiente consequatur
-            voluptate cumque, in porro ipsum dolor quia tenetur adipisci!
-            Assumenda, quo sequi?
+            Aquí puedes encontrar un repositorio de un proyecto Frontend que puedes descargar para tu análisis 
           </p>
-          <button>Ver Mas</button>
+          <a href="https://github.com/Lexico7890/Rec-sales-react" target="_blank">Ver Mas</a>
         </div>
         <div class="box-2">
           <span>2</span>
           <p>Backend</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            placeat inventore possimus a dicta natus at sapiente consequatur
-            voluptate cumque, in porro ipsum dolor quia tenetur adipisci!
-            Assumenda, quo sequi?
+            Aquí puedes encontrar un repositorio de un proyecto Backend que puedes descargar para tu análisis 
           </p>
-          <button>Ver Mas</button>
+          <a href="https://github.com/Lexico7890" target="_blank">Ver Mas</a>
         </div>
         <div class="box-3">
           <span>3</span>
           <p>Mobile</p>
           <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolores
-            placeat inventore possimus a dicta natus at sapiente consequatur
-            voluptate cumque, in porro ipsum dolor quia tenetur adipisci!
-            Assumenda, quo sequi?
+            Aquí puedes encontrar un repositorio de un proyecto Movil que puedes descargar para tu análisis 
           </p>
-          <button>Ver Mas</button>
+          <a href="https://github.com/Lexico7890/Workshop_MovilApplication" target="_blank">Ver Mas</a>
         </div>
       </div>
     </div>
-    <div class="contact-me">
+    <div class="contact-me" id="secContact">
       <p>Si tienes algun proyecto en mente</p>
       <button>Contactame</button>
     </div>
     <footer>
-        <p>Algo mas</p>
-        <p>Trabajo realizando metas posibles si quiere saber mas de mi aqui hay algunas redes sociales</p>
-        <div class="social-icons">
-            <a href=""><i class="fab fa-github "></i></a>
-            <a href=""><i class="fab fa-linkedin"></i></a>
-            <a href=""><i class="fab fa-facebook"></i></a>
-        </div>
-        <p class="copyright">Copyright by going to internet</p>
+      <p>Algo mas</p>
+      <p>
+        Trabajo realizando metas posibles si quiere saber mas de mi aqui hay
+        algunas redes sociales
+      </p>
+      <div class="social-icons">
+        <a href=""><i class="fab fa-github"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-facebook"></i></a>
+      </div>
+      <p class="copyright">Copyright by going to internet</p>
     </footer>
+    <div class="social-icons-two">
+      <a href=""><i class="fab fa-github"></i></a>
+      <a href=""><i class="fab fa-linkedin"></i></a>
+      <a href=""><i class="fab fa-facebook"></i></a>
+    </div>
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".toggle").click(function () {
+          $(".toggle").toggleClass("active");
+          $("nav").toggleClass("active");
+        });
+      });
+    </script>
   </body>
   <script src="./javascript.js" />
 </html>
