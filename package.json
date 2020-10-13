@@ -1,0 +1,19 @@
+{
+  "name": "portafolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "javascript.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Lexico7890/Portafolio.git"
+  },
+  "author": "oscar casas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Lexico7890/Portafolio/issues"
+  },
+  "homepage": "https://github.com/Lexico7890/Portafolio#readme"
+}

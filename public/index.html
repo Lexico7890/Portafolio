@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximun-scale=1.0, minimun-scale=1.0"
+    />
+    <meta http-equiv="X-UA-Compatible" content="IE-edge" />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://kit.fontawesome.com/4d72747f1d.js"
+      crossorigin="anonymous"
+    ></script>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;500;700&display=swap" rel="stylesheet">
+    <title>Curriculum Oscar</title>
+
+    <!-- update the version number as needed -->
+    <script defer src="/__/firebase/7.23.0/firebase-app.js"></script>
+    <!-- include only the Firebase features as you need -->
+    <script defer src="/__/firebase/7.23.0/firebase-auth.js"></script>
+    <script defer src="/__/firebase/7.23.0/firebase-database.js"></script>
+    <script defer src="/__/firebase/7.23.0/firebase-messaging.js"></script>
+    <script defer src="/__/firebase/7.23.0/firebase-storage.js"></script>
+    <!-- initialize the SDK after all desired features are loaded -->
+    <script defer src="/__/firebase/init.js"></script>
+
+    
+  </head>
+  <body>
+    <article class="header">
+      <h4 class="textTitle">Portafolio</h4>
+      <nav>
+        <ul class="ulnav">
+          <li><a href="#secInicio">Inicio</a></li>
+          <li><a href="#secInfo">Informacion Personal</a></li>
+          <li><a href="#secHabilidades">Habilidades</a></li>
+          <li><a href="#secContact">Contacto</a></li>
+        </ul>
+        <div class="toggle"></div>
+      </nav>
+    </article>
+    <section class="sectionPhoto" id="secInicio">
+      <div class="text-container">
+        <p>Hola</p>
+        <p>Soy Oscar</p>
+        <p>Analista De Software <br />& Desarrollador Web</p>
+        <a class="btn_descargar" href="pdf/Curriculum_vitae_oscarR.pdf" download="CurriculumOscarCasas.pdf" target="_blank">Descargar CV</a>
+      </div>
+      <img src="images/oscarPortafolioWeb.png" class="model" alt="Foto" />
+    </section>
+    <div class="about-container" id="secInfo">
+      <img src="images/oscarPortafolioWeb.jpg" alt="foto" />
+      <div class="about-text">
+        <p>Quien Soy</p>
+        <p>Analista de software & Desarrollador web</p>
+        <p>
+          Soy una persona que aprende cada día para crecer como profesional y espiritualmente, que ve más su carrera como una pasión más que como un trabajo, 
+          cada proyecto que realizo lo tomo como un desafío para saber de qué soy capaz y me exijo cada día para superar estos desafíos
+        </p>
+        <br/>
+        <p>
+          "Todo lo que puedas imaginar es real"
+        </p>
+        <p>Pablo Picasso</p>
+      </div>
+    </div>
+    <div class="Habilities" id="secHabilidades">
+      <div class="habilities-text">
+        <p>Habilidades</p>
+        <p>Habilidades en las que mejor me desempeño</p>
+        <p>
+          Tengo conocimientos en tecnologías frontend como html, css y javascritp con manejo de framework react con redux y nextJs, 
+          tecnologías de backend con nodeJs y en móvil con react-native, 
+          manejo de bases de datos relacionales(sql server, mySql) y no relacionales(mongo,firebase Cloud) y manejo de repositorios en git 
+        </p>
+        
+      </div>
+      <div class="box-container">
+        <div class="box-1">
+          <span>1</span>
+          <p>Frontend</p>
+          <p>
+            Aquí puedes encontrar un repositorio de un proyecto Frontend que puedes descargar para tu análisis 
+          </p>
+          <a href="https://github.com/Lexico7890/Rec-sales-react" target="_blank">Ver Mas</a>
+        </div>
+        <div class="box-2">
+          <span>2</span>
+          <p>Backend</p>
+          <p>
+            Aquí puedes encontrar un repositorio de un proyecto Backend que puedes descargar para tu análisis 
+          </p>
+          <a href="https://github.com/Lexico7890" target="_blank">Ver Mas</a>
+        </div>
+        <div class="box-3">
+          <span>3</span>
+          <p>Mobile</p>
+          <p>
+            Aquí puedes encontrar un repositorio de un proyecto Movil que puedes descargar para tu análisis 
+          </p>
+          <a href="https://github.com/Lexico7890/Workshop_MovilApplication" target="_blank">Ver Mas</a>
+        </div>
+      </div>
+    </div>
+    <div class="contact-me" id="secContact">
+      <p>Si tienes algun proyecto en mente</p>
+      <button>Contactame</button>
+    </div>
+    <footer>
+      <p>Algo mas</p>
+      <p>
+        Trabajo realizando metas posibles si quiere saber mas de mi aqui hay
+        algunas redes sociales
+      </p>
+      <div class="social-icons">
+        <a href=""><i class="fab fa-github"></i></a>
+        <a href=""><i class="fab fa-linkedin"></i></a>
+        <a href=""><i class="fab fa-facebook"></i></a>
+      </div>
+      <p class="copyright">Copyright by going to internet</p>
+    </footer>
+    <div class="social-icons-two">
+      <a href=""><i class="fab fa-github"></i></a>
+      <a href=""><i class="fab fa-linkedin"></i></a>
+      <a href=""><i class="fab fa-facebook"></i></a>
+    </div>
+    <script type="text/javascript" src="./jquery.js"></script>
+    <script type="text/javascript">
+      $(document).ready(function () {
+        $(".toggle").click(function () {
+          $(".toggle").toggleClass("active");
+          $("nav").toggleClass("active");
+        });
+      });
+    </script>
+
+    <script>
+      document.addEventListener('DOMContentLoaded', function() {
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+        // // The Firebase SDK is initialized and available here!
+        //
+        // firebase.auth().onAuthStateChanged(user => { });
+        // firebase.database().ref('/path/to/ref').on('value', snapshot => { });
+        // firebase.messaging().requestPermission().then(() => { });
+        // firebase.storage().ref('/path/to/ref').getDownloadURL().then(() => { });
+        //
+        // // 🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥🔥
+
+        try {
+          let app = firebase.app();
+          let features = ['auth', 'database', 'messaging', 'storage'].filter(feature => typeof app[feature] === 'function');
+          document.getElementById('load').innerHTML = `Firebase SDK loaded with ${features.join(', ')}`;
+        } catch (e) {
+          console.error(e);
+          document.getElementById('load').innerHTML = 'Error loading the Firebase SDK, check the console.';
+        }
+      });
+    </script>
+  </body>
+</html>
